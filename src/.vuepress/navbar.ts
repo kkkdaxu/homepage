@@ -8,12 +8,12 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "笔记",
         icon: "pen-to-square",
         prefix: "Cpp/",
         children: [
           { text: "C++专题笔记", icon: "pen-to-square", link: "cpp专题笔记" },
-          { text: "C++内存管理", icon: "pen-to-square", link: "0000_C++内存管理" },
+          { text: "C++内存管理", icon: "pen-to-square", link: "cpp内存管理" },
         ],
       },
 
