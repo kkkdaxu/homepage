@@ -8,7 +8,7 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "笔记",
+        text: "个人笔记",
         icon: "pen-to-square",
         prefix: "Cpp/",
         children: [
@@ -25,7 +25,7 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "笔记",
+        text: "个人笔记",
         icon: "pen-to-square",
         prefix: "Cpp/",
         children: [
