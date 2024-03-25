@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "音视频开发学习者",
+    description: "音视频开发学习者-  -整理自网络，侵权必删",
     intro: "/intro.html",
     medias: {
       // Baidu: "https://example.com",
