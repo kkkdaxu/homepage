@@ -3,44 +3,36 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "博文",
+    text: "C++学习笔记",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
         text: "苹果",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "Cpp/",
         children: [
-          { text: "C++专题笔记", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "C++专题笔记", icon: "pen-to-square", link: "cpp专题笔记" },
+          { text: "C++内存管理", icon: "pen-to-square", link: "0000_C++内存管理" },
         ],
       },
+
+    ],
+  },
+  {
+    text: "计算机网络",
+    icon: "pen-to-square",
+    prefix: "/posts/",
+    children: [
       {
-        text: "香蕉",
+        text: "笔记",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "Cpp/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "图解计算机网络", icon: "pen-to-square", link: "图解计算机网络" },
+
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   {
